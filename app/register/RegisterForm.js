@@ -36,21 +36,6 @@ export default function RegisterForm() {
     router.push("/login");
   };
 
-  const handleGoogle = async () => {
-    setError("");
-    setPending(true);
-
-    const { error: googleError } = await authClient.signIn.social({
-      provider: "google",
-      callbackURL: "/",
-    });
-
-    if (googleError) {
-      setError(googleError.message || "Google sign up failed.");
-      setPending(false);
-    }
-  };
-
   return (
     <div className="auth-shell">
       <div className="auth-header">
@@ -122,15 +107,7 @@ export default function RegisterForm() {
         </div>
       </form>
 
-      <div className="auth-footer">
-        <button
-          type="button"
-          onClick={handleGoogle}
-          className="btn-outline btn-block"
-          disabled={pending}
-        >
-          Continue with Google
-        </button>
+      <div className="auth-footer text-center mt-4">
         <p>
           Already have an account?{" "}
           <Link href="/login" className="auth-link">
