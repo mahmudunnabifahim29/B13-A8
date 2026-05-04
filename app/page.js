@@ -48,8 +48,8 @@ export default async function Home() {
           <div className="hero-image-grid">
             <div className="tile-frame tile-frame--hero animate__animated animate__fadeInUp">
               <Image
-                src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=900&q=80"
-                alt="Matte tile surface"
+                src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=900&q=80"
+                alt="Luxury Calacatta Marble Vein surface"
                 width={900}
                 height={1100}
                 className="h-full w-full object-cover"
@@ -57,8 +57,8 @@ export default async function Home() {
             </div>
             <div className="tile-frame tile-frame--hero animate__animated animate__fadeInUp animate__delay-1s">
               <Image
-                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80"
-                alt="Hand glazed tiles"
+                src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=900&q=80"
+                alt="Sand dune porcelain layout with organic shadows"
                 width={900}
                 height={1100}
                 className="h-full w-full object-cover"
