@@ -2,14 +2,14 @@
 
 Tiles Gallery is a single page application that showcases curated tile designs, styles, and materials with private detail pages for logged-in users.
 
-Live URL: https://your-deployed-url.vercel.app
+Live URL: (add after deployment)
 
 ## Key Features
 
 - Responsive layout with hero banner, marquee, and featured tiles
 - All Tiles gallery with search by title and detailed tile cards
 - Private tile detail pages with creator, style, and tag metadata
-- Authentication with email/password and Google via Better Auth
+- Authentication with email/password via Better Auth
 - My Profile and Update Information flows powered by Better Auth `updateUser`
 - Custom loader and not-found experiences
 
@@ -22,14 +22,12 @@ Live URL: https://your-deployed-url.vercel.app
 
 ## Environment Variables
 
-Copy `.env.example` to `.env.local` and fill in your values:
+Set the following environment variables in your local environment or hosting provider:
 
 - `BETTER_AUTH_SECRET`
 - `BETTER_AUTH_URL`
 - `NEXT_PUBLIC_BETTER_AUTH_URL`
 - `MONGODB_URI`
-- `GOOGLE_CLIENT_ID`
-- `GOOGLE_CLIENT_SECRET`
 
 ## Route Access
 
